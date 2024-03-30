@@ -1,0 +1,64 @@
+﻿
+div.scrollmenu {
+    
+    overflow: auto;
+    white-space: nowrap;
+   
+}
+
+    div.scrollmenu a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        
+        text-decoration: none;
+        font-size: 30px;
+        box-shadow: inset 0 -3em 3em rgb(0 200 0 / 30%), 0.3em 0.3em 1em rgb(200 0 0 / 60%);
+        border-style: solid;
+        justify-content: space-around;
+        
+        
+    }
+
+    div.scrollmenu a:hover {
+        background-color: #777;
+    }
+
+.buttoninicio {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    padding: 40px;
+    
+}
+
+.botonreporte {
+    position: absolute;
+    padding: 40px;
+    top: 50px;
+    left: 410px;
+}
+.botonuser {
+    position: absolute;
+    padding: 40px;
+    top: 50px;
+    left: 598px;
+}
+.buttonmascota {
+    position: absolute;
+    padding: 40px;
+    top: 50px;
+    left: 783px;
+}
+.buttoncitas {
+    position: absolute;
+    padding: 40px;
+    top: 50px;
+    left: 986px;
+}
+
+body {
+    background-image: url(diseno-de-clinicas-veterinarias.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
